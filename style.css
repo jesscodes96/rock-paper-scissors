@@ -1,3 +1,58 @@
 * {
   background-color: grey;
 }
+
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+#main {
+  border: 10px solid green;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#go-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.you-player {
+  margin-left: 300px;
+}
+
+.computer-player {
+  margin-right: 300px;
+}
+
+.countdown {
+  font-size: 30px;
+  font-weight: 700;
+}
+
+img {
+  width: 225px;
+  height: 150px;
+}
+
+button {
+  width: 150px;
+  height: 75px;
+  font-size: 50px;
+  background-color: lightgreen;
+  border-radius: 10%;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+button:active {
+  background-color: green;
+}
